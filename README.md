@@ -1,34 +1,34 @@
 # Single Client Chat 2
 
-Este projeto é um exemplo simples de comunicação via UDP em Java, implementando um cliente que envia e recebe mensagens de um servidor.
+This project is a simple example of UDP communication in Java, implementing a client that sends and receives messages from a server.
 
-## Estrutura do Projeto
+## Project Structure
 
-- `Main.java`: Classe principal para execução do cliente.
-- `UdpClient.java`: Implementa a lógica de envio e recebimento de mensagens UDP.
+- `Main.java`: Main class to run the client.
+- `UdpClient.java`: Implements the logic for sending and receiving UDP messages.
 
-## Como Executar
+## How to Run
 
-1. Compile os arquivos Java:
+1. Compile the Java files:
    ```sh
    javac src/*.java
    ```
-2. Execute a classe principal:
+2. Run the main class:
    ```sh
    java -cp src Main
    ```
 
-## Configuração
+## Configuration
 
-- O cliente está configurado para enviar mensagens para o endereço `127.0.0.1` na porta `8769`.
-- O socket do cliente utiliza a porta local `6624`.
+- The client is set to send messages to address `127.0.0.1` on port `8769`.
+- The client socket uses local port `6624`.
 
-## Requisitos
+## Requirements
 
-- Java 8 ou superior
+- Java 8 or higher
 
-## Observações
+## Notes
 
-- Certifique-se de que o servidor UDP esteja rodando e escutando na porta correta antes de executar o cliente.
-- Este projeto é apenas para fins educacionais e demonstração de comunicação UDP.
+- Make sure the UDP server is running and listening on the correct port before starting the client.
+- This project is for educational purposes and demonstrates UDP communication.
 
